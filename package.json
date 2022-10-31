@@ -1,0 +1,49 @@
+{
+  "name": "@v_m/nestjs-puppeteer",
+  "version": "0.0.1",
+  "description": "This is a Puppeteer module for NestJS that allows you to use Puppeteer in your project.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf -rf dist && tsc -p tsconfig.json",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-mikhieiev/nestjs-puppeteer.git"
+  },
+  "author": "Vladyslav Mikhieiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladyslav-mikhieiev/nestjs-puppeteer/issues"
+  },
+  "homepage": "https://github.com/vladyslav-mikhieiev/nestjs-puppeteer#readme",
+  "keywords": [
+    "puppeteer",
+    "nestjs",
+    "nestjs-module",
+    "headless",
+    "nestjs-headless",
+    "nestjs-puppeteer",
+    "nestjs-puppeteer module",
+    "nestjs-puppeteer extra",
+    "puppeteer-extra",
+    "browser-automation",
+    "chrome",
+    "chromium"
+  ],
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0 || ^9.0.0"
+  },
+  "dependencies": {
+    "puppeteer-extra": "^3.3.4"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^9.1.6",
+    "@types/node": "^18.11.7",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.5.7",
+    "typescript": "^4.8.4"
+  }
+}
