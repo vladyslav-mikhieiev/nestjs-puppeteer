@@ -1,5 +1,5 @@
 function helloWorld() {
-    return 'Hello World From My First npm package'
+    return 'Hello World'
 }
 
 export { helloWorld }
